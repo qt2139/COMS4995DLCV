@@ -5,7 +5,8 @@
 ## Catalog
 1. [Notes](#Notes)
 2. [Environment](#Environment)
-3. [How2predict](#How2predict)
+3. [Experiment_Results](#Experiment_Results)
+4. [How2predict](#How2predict)
 
 ## Notes
 The library contains two networks, retinaface and facenet, both of which use different weights.    
@@ -13,6 +14,19 @@ When using the networks, you must pay attention to the choice of weights and the
 
 ## Environment
 pytorch==1.2.0 
+
+## Experiment_Results
+RetinaFace
+| Dataset |  Input Image Size | Easy | Medium | Hard |
+| :-----: |  :------: | :------: | :-----: | :-----: |
+| Widerface-Train | 1280x1280 | 89.76% | 86.96% | 74.69% |
+| Widerface-Train | 1280x1280 | 94.72% | 93.13% | 84.48% |
+
+FacaNet
+| Dataset | Input Image Size | Accuracy |
+| :-----: | :------: | :------: |
+| CASIA-WebFace | 160x160 | 98.23% |
+| CASIA-WebFace | 160x160 | 98.78% |
 
 
 ## How2predict
