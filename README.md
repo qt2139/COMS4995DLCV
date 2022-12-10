@@ -19,7 +19,7 @@ pytorch==1.2.0
 RetinaFace
 | Dataset |  Input Image Size | Easy | Medium | Hard |
 | :-----: |  :------: | :------: | :-----: | :-----: |
-| Widerface-Train | 1280x1280 | 94.72% | 93.13% | 84.48% |
+| Widerface-Train | 1280x1280 | 89.76% | 86.96% | 74.69% |
 
 FacaNet
 | Dataset | Input Image Size | Accuracy |
