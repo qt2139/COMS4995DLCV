@@ -25,7 +25,6 @@ FacaNet
 | Dataset | Input Image Size | Accuracy |
 | :-----: | :------: | :------: |
 | CASIA-WebFace | 160x160 | 98.23% |
-| CASIA-WebFace | 160x160 | 98.78% |
 
 
 ## How2predict
