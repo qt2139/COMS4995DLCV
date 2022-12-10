@@ -39,7 +39,7 @@ _defaults = {
     #-----------------------------------#
     "letterbox_image"       : True,
     
-    "facenet_model_path"    : 'facenet_inception_resnetv1.pth',
+    "facenet_model_path"    : 'facenet_mobilenet0.25.pth',
     #-----------------------------------#
     #   Select FaceNet backbone for MobileNet.
     #-----------------------------------#
@@ -57,3 +57,6 @@ _defaults = {
 
 ## Experiment results
 https://drive.google.com/drive/folders/1twdFGTBXaLMNAzMBl7wrfn4Ves_tjiwb?usp=share_link
+
+Let's see the results on the image side.  
+![ben9](https://user-images.githubusercontent.com/90971979/206825165-6e61d4f0-0c7c-4c17-9b7c-cb411f34513b.jpg)
