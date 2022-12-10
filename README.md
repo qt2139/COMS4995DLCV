@@ -9,11 +9,13 @@
 4. [How2predict](#How2predict)
 
 ## Notes
-The library contains two networks, retinaface and facenet, both of which use different weights.    
-When using the networks, you must pay attention to the choice of weights and the matching of trunk and weights.      
+The library contains two networks, retinaface and facenet, they use different weights.    
+When using the networks, we need pay attention to the choice of weights and check the paths.      
 
 ## Environment
-pytorch==1.2.0 
+python==3.9  
+pytorch==1.2.0  
+opencv==4.5.5.64
 
 ## Experiment_Results
 RetinaFace
