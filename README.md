@@ -14,7 +14,7 @@ When using the networks, we need pay attention to the choice of weights and chec
 
 ## Environment
 python==3.9  
-pytorch==1.2.0  
+pytorch==1.11.0  
 opencv==4.5.5.64
 
 ## Experiment_Results
