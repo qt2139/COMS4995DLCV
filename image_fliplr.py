@@ -15,13 +15,13 @@ def read_img(image_path, gray_scale=False):
 
 
 def mirror_img(image_path, gray_scale=False, debug=False):
-    """ 图像镜像翻转 """
+    """ Image Mirror Flip """
     image_rgb = read_img(image_path, gray_scale)
     image_fliplr = np.fliplr(image_rgb)
     #image_flipud = np.flipud(image_rgb)
     if debug:
-        cv2.imwrite('./image_fliplr.jpg', image_fliplr)  # 左右翻转
-        #cv2.imwrite('./image_flipud.jpg', image_flipud)  # 上下翻转
+        cv2.imwrite('./image_fliplr.jpg', image_fliplr)  # Left and right flip
+        #cv2.imwrite('./image_flipud.jpg', image_flipud)  # Flip up and down
     return image_fliplr#, image_flipud
 
 
