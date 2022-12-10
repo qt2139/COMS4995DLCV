@@ -50,9 +50,9 @@ _defaults = {
     "cuda"                  : True
 }
 ```
-3. Upload an image of a face in the face dataset.
-4. Run encoding.py to encode the images inside the face_dataset, the naming rules of face_dataset are XXX_1.jpg, XXX_2.jpg. The model will generate the corresponding database face encoding data files in the model_data folder.
-5. Upload a photo or video that needs to be recognized in the img folder.
+3. Upload an image in the face_dataset folder. The naming rules of face_dataset are XXX_1.jpg, XXX_2.jpg.
+4. Run encoding.py to encode the images inside the face_dataset. The model will generate the corresponding database face encoding data files in the model_data folder.
+5. Upload a photo or video that needs to be recognized in the img folder and change the path of the image/video in the predict.py function.
 6. Run predict.py.
 
 ## Experiment results
